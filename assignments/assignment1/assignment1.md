@@ -34,7 +34,7 @@ To create `movies` table from `movies.csv` file,
 
 Find your LOAD job information from `PROJECT HISTORY` (next to `PERSONAL HISTORY`) at the bottom. Mine looks like @fig-job-info
 
-![load-job-info](images/load-job.png){#fig-job-info}
+![load-job-info](images/load-job.png)
 
 Post screenshot of your LOAD job information here:
 
@@ -48,7 +48,7 @@ The `ratings.csv` file is too large (over 100MB) to upload normally. Google Clou
 
 **PSTAT 135 Students**: Upload `ratings.csv` file to Cloud Storage and create `ratings` table from it using the web interface. Then, post the screenshot of your LOAD job information here:
 
-**Replace this text with your screenshot image**
+![ratings_upload](images/screenshot2.png){#ratings_upload}
 
 **PSTAT 235 Students**: Upload `ratings.csv` file to Cloud Storage and create `ratings` table using the commmand line tools: `bq` and `gsutil`.
 
