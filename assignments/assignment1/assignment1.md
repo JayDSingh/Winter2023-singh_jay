@@ -38,7 +38,7 @@ Find your LOAD job information from `PROJECT HISTORY` (next to `PERSONAL HISTORY
 
 Post screenshot of your LOAD job information here:
 
-![movies_upload](images/screenshot1.png){#movies_upload}
+![movies_upload](images/screenshot1.png)
 
 ### Question 1b: `ratings` table
 
@@ -48,7 +48,7 @@ The `ratings.csv` file is too large (over 100MB) to upload normally. Google Clou
 
 **PSTAT 135 Students**: Upload `ratings.csv` file to Cloud Storage and create `ratings` table from it using the web interface. Then, post the screenshot of your LOAD job information here:
 
-![ratings_upload](images/screenshot2.png){#ratings_upload}
+![ratings_upload](images/screenshot2.png)
 
 **PSTAT 235 Students**: Upload `ratings.csv` file to Cloud Storage and create `ratings` table using the commmand line tools: `bq` and `gsutil`.
 
@@ -85,31 +85,22 @@ Also, post screenshot of your LOAD job information here:
 
 How many rows are there in `ratings` table?
 
-A. 27753445
-B. 27000001
 C. 27753444
-D. 27000000
 
 ## Question 3: `movies` table number of rows
 
 How many rows are there in the `movies` table?
 
-A. 57999
-B. 58000
-C. 58097
 D. 58098
 
 ## Question 3: number of unique movies
 
 How many unique `movieId`'s are in `ratings` table?
 
-A. 52019
-B. Around 27 million
 C. 53889
-D. 58097
 
 What is your SQL code to obtain the info?
-
+SELECT COUNT(DISTINCT(movieId)) FROM `pstat135-js.movie_ratings.ratings`
 ## Question 4: highly rated movies
 
 Which one of these movies are among top 10 highly rated movies, with at least
